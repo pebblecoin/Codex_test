@@ -1,0 +1,21 @@
+# Interview Follow-Up Questions
+
+- How would you handle invalid commands?
+- Why did you choose a class-based design instead of just functions?
+- How would you support command strings like `MMRML` instead of full words?
+- What changes would you make if the rover moved on a bounded grid?
+- How would you detect and handle obstacles?
+- How would you support multiple rovers at once?
+- How would you test this beyond the happy path?
+- What is the time and space complexity of processing commands?
+- How would you make the direction logic more scalable or less repetitive?
+- If requirements changed to report after all commands instead of every command, how would your design adapt?
+- What assumptions did you make that you would want to confirm?
+- How would you separate business logic from CLI code?
+- How would you redesign this for production-quality code?
+- What would you refactor first if this codebase grew?
+- Should movement wrap around the map edges?
+- Can the rover move backward?
+- Should commands be case-insensitive?
+- Do you want reporting after each command or only at the end?
+- Should invalid commands stop execution or be ignored?
